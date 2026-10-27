@@ -1,0 +1,852 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Art &amp; Beleza · Cabeleireiro em Ferreiras, Albufeira</title>
+<meta name="description" content="Cabeleireiro, barbearia e unhas em Ferreiras, Albufeira. Sempre por marcação. 4,8 estrelas no Google. Marque pelo WhatsApp.">
+<meta name="theme-color" content="#1d1619">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Art &amp; Beleza · Cabeleireiro em Ferreiras">
+<meta property="og:description" content="Cabeleireiro, barbearia e unhas em Ferreiras, Albufeira. Sempre por marcação. 4,8 estrelas no Google. Marque pelo WhatsApp.">
+<meta property="og:url" content="https://valerialazarinfo-lab.github.io/art-beleza/">
+<meta property="og:image" content="https://valerialazarinfo-lab.github.io/art-beleza/img/partilha.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<link rel="canonical" href="https://valerialazarinfo-lab.github.io/art-beleza/">
+<meta property="og:locale" content="pt_PT">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231d1619'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' text-anchor='middle' fill='%23f3c6d6'%3EA%26B%3C/text%3E%3C/svg%3E">
+<style>[hidden]{display:none!important}</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Figtree:wght@400;500;600;700;800&display=swap">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HairSalon","name":"Art & Beleza","description":"Cabeleireiro, barbearia, unhas, pedicura, pestanas e estética em Ferreiras, Albufeira.","telephone":"+351965610364","address":{"@type":"PostalAddress","streetAddress":"Estrada do Paraíso, Edifício Labisa, Loja C","addressLocality":"Ferreiras, Albufeira","postalCode":"8200","addressCountry":"PT"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.8","reviewCount":"26"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"09:00","closes":"13:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"14:30","closes":"19:00"}]}
+</script>
+<style>
+/* single light theme on purpose: the salon is pink and bright. layout: mobile-first salon site, PT/EN. Brand from the salon itself: rose walls, black tile floor, light wood. Last band explains the value to the owner. */
+:root{
+  --bg:#fffafb;
+  --surface:#ffffff;
+  --tint:#fbe9ef;
+  --fg:#1d1619;
+  --fg-soft:#5f5358;
+  --line:#ecd9df;
+  --accent:#b23a63;
+  --rose:#f3c6d6;
+  --band:#1d1619;
+  --band-fg:#ffffff;
+  --band-soft:#d3c5cb;
+  --band-card:#2a2125;
+  --band-line:#43363c;
+  --solid:#1d1619;
+  --solid-fg:#ffffff;
+  --wa:#17874a;
+  --ok-bg:#e4f5ea;
+  --ok-fg:#14633a;
+  --bad-bg:#fde8ea;
+  --bad-fg:#a3273d;
+  --star:#e0a100;
+  --place:#f3c6d6;
+  --place-fg:#4d2133;
+  --display:"Gloock","Georgia",serif;
+  --body:"Figtree","Helvetica Neue",Arial,sans-serif;
+  color-scheme:light;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.55}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--band)}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+
+.gut{padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px))}
+.in{max-width:1120px;margin:0 auto}
+section{padding-block:72px}
+.kicker{font-size:15px;font-weight:700;color:var(--accent)}
+h1,h2,h3{text-wrap:balance}
+h2{font-family:var(--display);font-weight:400;font-size:clamp(32px,5vw,46px);line-height:1.05;margin:8px 0 0}
+.sec-head{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:12px 32px;margin-bottom:32px}
+.sec-note{color:var(--fg-soft);max-width:46ch;margin:0;font-size:16px}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:15px 26px;font-weight:700;font-size:16px;text-decoration:none;border:0;cursor:pointer;transition:transform .15s,filter .15s}
+.btn:hover{transform:translateY(-1px);filter:brightness(1.06)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-ghost{background:transparent;color:var(--fg);border:1.5px solid var(--fg)}
+.btn-rose{background:var(--rose);color:#1d1619}
+
+/* top bar */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--band);color:var(--band-fg)}
+.top .in{display:flex;align-items:center;justify-content:space-between;gap:14px;padding-block:10px}
+.logo{font-family:var(--display);font-size:23px;text-decoration:none;color:#fff;white-space:nowrap}
+.logo span{color:var(--rose)}
+.nav{display:flex;gap:22px;font-size:14px;font-weight:500}
+.nav a{text-decoration:none;color:var(--band-soft)}
+.nav a:hover{color:#fff}
+.top-r{display:flex;align-items:center;gap:10px}
+.top .tel{font-size:14px;color:var(--band-soft);font-variant-numeric:tabular-nums}
+.top .btn-sm{background:var(--rose);color:#1d1619;text-decoration:none;font-weight:700;font-size:14px;padding:10px 18px;border-radius:999px;white-space:nowrap}
+.lang{border:1.5px solid #6b5a62;background:transparent;color:#fff;border-radius:999px;min-width:44px;height:40px;font-weight:700;font-size:13px;cursor:pointer;padding:0 12px}
+@media (max-width:900px){.nav,.top .tel{display:none}}
+
+/* hero */
+.hero{background:var(--tint);overflow:hidden;position:relative}
+.ghost{position:absolute;right:-1%;top:3%;font-family:var(--display);font-size:clamp(110px,24vw,330px);line-height:1;color:var(--rose);opacity:.45;pointer-events:none;user-select:none;z-index:0;white-space:nowrap}
+.hero .in{position:relative;z-index:1}
+.band{background:var(--bg);border-bottom:1px solid var(--line)}
+.band p{margin:0;max-width:1120px;margin-inline:auto;padding-block:44px;font-family:var(--display);font-size:clamp(34px,6.2vw,76px);line-height:1.05;text-wrap:balance}
+.band span{color:var(--accent)}
+.hero .in{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding-block:56px 64px}
+.hero-txt{min-width:0}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(42px,7.2vw,76px);line-height:1;margin:14px 0 18px}
+h1 .l1,h1 .l2{display:block}
+h1 .l2{font-size:.62em;line-height:1.1;margin-top:.25em;color:var(--fg-soft)}
+.place-line{margin:0;font-weight:600;color:var(--accent);font-size:16px}
+@keyframes arch{from{clip-path:inset(10% 0 0 0 round 240px 240px 20px 20px)}to{clip-path:inset(0 0 0 0 round 240px 240px 20px 20px)}}
+.hero-img img{animation:arch .9s cubic-bezier(.2,.7,.2,1) both}
+.lede{font-size:18px;color:var(--fg-soft);max-width:38ch;margin:0 0 22px}
+.chips-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
+.rating{display:inline-flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 10px;font-size:14px;text-decoration:none}
+.rating .g{width:24px;height:24px;border-radius:50%;background:var(--solid);color:var(--solid-fg);font-weight:800;font-size:12px;display:grid;place-items:center}
+.rating .st{color:var(--star);letter-spacing:1px}
+.ctas{display:flex;flex-wrap:wrap;gap:10px}
+.hero-img{position:relative;min-width:0}
+.hero-img::before{content:"";position:absolute;inset:8% -6% -5% 12%;background:var(--rose);border-radius:240px 240px 24px 24px;opacity:.55}
+.hero-img img{position:relative;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:240px 240px 20px 20px;box-shadow:0 30px 60px -30px rgba(120,30,60,.5)}
+.badge{position:absolute;left:-16px;bottom:30px;background:var(--band);color:#fff;border-radius:16px;padding:14px 18px;font-size:13px;line-height:1.35;max-width:220px;box-shadow:0 14px 30px -12px rgba(0,0,0,.5)}
+.badge{display:flex;align-items:center;gap:12px;max-width:270px}
+.hero-img .badge .chip-photo{width:56px;height:56px;flex:none;aspect-ratio:1/1;border-radius:50%;object-fit:cover;object-position:50% 18%;box-shadow:none;animation:none;border:2px solid var(--rose)}
+.hero-img img.main{object-position:50% 12%}
+.badge b{display:block;font-family:var(--display);font-weight:400;font-size:20px;color:var(--rose)}
+@media (max-width:860px){
+  .hero .in{grid-template-columns:1fr;gap:30px;padding-block:28px 40px}
+  .hero-img{order:-1;max-width:250px;width:100%;margin-inline:auto}
+  .hero-img img{aspect-ratio:1/1}
+  .badge{position:relative;left:auto;bottom:auto;margin:-26px auto 0;width:max-content}
+}
+
+.status{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:14px;padding:8px 14px;border-radius:999px}
+.status.open{background:var(--ok-bg);color:var(--ok-fg)}
+.status.closed{background:var(--bad-bg);color:var(--bad-fg)}
+.status i{width:8px;height:8px;border-radius:50%;background:currentColor}
+
+.facts{background:var(--band);color:var(--band-fg)}
+.facts .in{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding-block:22px}
+.fact{min-width:0;font-size:14px;color:var(--band-soft)}
+.fact b{display:block;color:#fff;font-size:15px}
+@media (max-width:760px){.facts .in{grid-template-columns:1fr 1fr}}
+
+/* services */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.tab{border:1.5px solid var(--line);background:var(--surface);color:var(--fg);border-radius:999px;padding:11px 18px;font-size:15px;font-weight:600;cursor:pointer}
+.tab[aria-selected="true"],.tab[aria-pressed="true"]{background:var(--solid);color:var(--solid-fg);border-color:var(--solid)}
+.svc-list{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:6px 22px}
+.svc-row{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+.svc-row:last-child{border-bottom:0}
+.svc-row div{min-width:0}
+.svc-row h3{margin:0;font-size:18px}
+.svc-row p{margin:2px 0 0;color:var(--fg-soft);font-size:15px}
+.svc-row button{flex:none;border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:999px;padding:10px 18px;font-weight:700;font-size:14px;cursor:pointer}
+.svc-row button:hover{background:var(--accent);color:var(--bg)}
+.price-note{margin-top:16px;background:var(--tint);border-radius:16px;padding:16px 20px;font-size:15px}
+
+/* gallery */
+.gal-wrap{background:var(--tint)}
+.gal{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:clamp(220px,22vw,270px);gap:14px}
+.gal figure{margin:0;min-width:0;min-height:0;display:flex;flex-direction:column}
+.gal figure[hidden]{display:none}
+.gal button{display:block;flex:1;min-height:0;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:16px;overflow:hidden}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.gal button:hover img{transform:scale(1.04)}
+.gal figcaption{font-size:14px;color:var(--fg-soft);margin-top:8px}
+.gal figure.lead{grid-column:span 2;grid-row:span 2}
+@media (max-width:860px){.gal{grid-template-columns:1fr 1fr;grid-auto-rows:clamp(200px,52vw,300px)}.gal figure.lead{grid-row:span 1}}
+dialog{border:0;padding:0;background:transparent;max-width:min(92vw,560px);color:#fff}
+dialog::backdrop{background:rgba(10,5,8,.82)}
+dialog img{width:100%;max-height:80vh;object-fit:contain;border-radius:14px}
+dialog p{margin:10px 0 0;text-align:center}
+dialog .x{position:absolute;top:8px;right:8px;width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.6);color:#fff;font-size:20px;cursor:pointer}
+
+/* owner */
+#equipa[hidden]{display:none}
+.who{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.who-img{position:relative;min-width:0;max-width:420px;width:100%}
+.who-img::before{content:"";position:absolute;inset:6% 8% -5% -6%;background:var(--rose);border-radius:20px 20px 220px 220px;opacity:.6}
+.who-img img{position:relative;width:100%;aspect-ratio:1/1;object-fit:cover;object-position:50% 20%;border-radius:20px 20px 200px 200px;box-shadow:0 30px 60px -30px rgba(120,30,60,.5)}
+.who-txt{min-width:0;display:grid;gap:16px;justify-items:start}
+.who-txt h2{margin:0}
+.who-list{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.who-list li{display:grid;grid-template-columns:22px 1fr;gap:6px;color:var(--fg-soft)}
+.who-list li::before{content:"✓";color:var(--accent);font-weight:800}
+@media (max-width:860px){.who{grid-template-columns:1fr;gap:28px}.who-img{margin-inline:auto}}
+
+/* booking */
+.book{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:start}
+.book-txt{min-width:0}
+.steps{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:14px;counter-reset:s}
+.steps li{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;color:var(--fg-soft)}
+.steps li::before{counter-increment:s;content:counter(s);width:34px;height:34px;border-radius:50%;background:var(--tint);color:var(--accent);font-weight:800;display:grid;place-items:center}
+.steps b{color:var(--fg);display:block}
+.promise{margin-top:22px;font-size:14px;color:var(--ok-fg);background:var(--ok-bg);border-radius:12px;padding:12px 14px}
+form{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:26px;display:grid;gap:18px;box-shadow:0 30px 60px -40px rgba(120,30,60,.35)}
+label,.lbl{font-size:14px;font-weight:700;display:block;margin-bottom:7px}
+select,input[type=text]{width:100%;font:inherit;padding:13px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
+select:focus,input:focus{border-color:var(--accent);outline:none}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.row2>div{min-width:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--bg);border-radius:999px;padding:10px 15px;font-size:14px;font-weight:500;cursor:pointer;color:var(--fg);font-variant-numeric:tabular-nums;min-height:40px}
+.chip[aria-pressed="true"]{background:var(--solid);border-color:var(--solid);color:var(--solid-fg);font-weight:700}
+.chip:disabled{opacity:.4;cursor:not-allowed;text-decoration:line-through}
+.slot-label{font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--fg-soft);margin:0 0 6px}
+.slots{display:grid;gap:12px}
+.check{display:flex;gap:10px;align-items:center;font-size:15px;cursor:pointer;font-weight:500}
+.check input{width:22px;height:22px;accent-color:var(--accent)}
+.preview{background:var(--ok-bg);border-radius:14px;padding:14px 16px;font-size:14px;color:var(--ok-fg);white-space:pre-wrap}
+.preview small{display:block;font-weight:800;margin-bottom:4px}
+form .btn{width:100%}
+.fallback{font-size:14px;color:var(--fg-soft);text-align:center;margin:0}
+.fallback b{color:var(--fg);font-variant-numeric:tabular-nums;user-select:all}
+@media (max-width:860px){.book{grid-template-columns:1fr;gap:28px}}
+@media (max-width:420px){.row2{grid-template-columns:1fr}form{padding:20px}}
+
+/* voucher + faq */
+.extra{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.voucher{min-width:0;background:var(--rose);color:#3b1a28;border-radius:24px;padding:30px;display:flex;flex-direction:column;gap:14px;align-items:flex-start;position:relative;overflow:hidden}
+.voucher::after{content:"";position:absolute;right:-50px;top:-50px;width:180px;height:180px;border-radius:50%;border:26px solid rgba(255,255,255,.35)}
+.voucher h3{font-family:var(--display);font-weight:400;font-size:32px;line-height:1.05;margin:0}
+.voucher p{margin:0;max-width:34ch}
+.voucher .btn{background:#1d1619;color:#fff}
+.faq{min-width:0}
+.faq details{border-bottom:1px solid var(--line);padding:14px 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:17px;list-style:none;display:flex;justify-content:space-between;gap:12px}
+.faq summary::after{content:"+";color:var(--accent);font-size:22px;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{margin:8px 0 0;color:var(--fg-soft)}
+@media (max-width:860px){.extra{grid-template-columns:1fr}}
+
+/* reviews */
+.rev-wrap{background:var(--band);color:var(--band-fg)}
+.rev-wrap h2{color:#fff}
+.rev-wrap .kicker{color:var(--rose)}
+.rev-wrap .sec-note{color:var(--band-soft)}
+.big-score{font-family:var(--display);font-size:68px;line-height:1;color:var(--rose)}
+.revs{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.rev{min-width:0;background:var(--band-card);border-radius:20px;padding:24px;margin:0}
+.rev .st{color:#f2b705;letter-spacing:2px;font-size:14px}
+.rev p{margin:10px 0 12px;font-size:16px}
+.rev .who{font-size:13px;color:var(--band-soft)}
+.rev-cta{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
+.rev-cta .btn-ghost{color:#fff;border-color:#8a7882}
+@media (max-width:760px){.revs{grid-template-columns:1fr}}
+
+/* visit */
+.visit{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.hours{min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px}
+.hours .status{margin-bottom:12px}
+.tbl{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums}
+td{padding:10px 0;border-bottom:1px solid var(--line)}
+td:last-child{text-align:right;color:var(--fg-soft)}
+tr:last-child td{border-bottom:0}
+tr.today td{font-weight:700;color:var(--fg)}
+.place{min-width:0;background:var(--place);color:var(--place-fg);border-radius:22px;padding:24px;display:flex;flex-direction:column;gap:14px}
+.place h3{font-family:var(--display);font-weight:400;font-size:28px;margin:0;line-height:1.1}
+.place p{margin:0}
+.mini-map{position:relative;height:160px;border-radius:14px;overflow:hidden;background:
+  linear-gradient(90deg,transparent 46%,#fff 46%,#fff 50%,transparent 50%),
+  linear-gradient(0deg,transparent 58%,#fffdf8 58%,#fffdf8 63%,transparent 63%),
+  linear-gradient(25deg,transparent 30%,#fff7 30%,#fff7 33%,transparent 33%),
+  #f7d9e4}
+.mini-map .pitch{position:absolute;right:14%;top:14%;width:26%;height:36%;background:#bfe2b5;border:2px solid #fff;border-radius:4px}
+.mini-map .pitch span{position:absolute;bottom:-20px;left:0;font-size:11px;color:#5b2a3c;white-space:nowrap}
+.mini-map .pin{position:absolute;left:47%;top:46%;transform:translate(-50%,-100%);width:26px;height:26px;background:#c2456f;border-radius:50% 50% 50% 0;rotate:-45deg;border:3px solid #fff}
+.place .btn{align-self:flex-start;background:#1d1619;color:#fff}
+.social{display:flex;flex-wrap:wrap;gap:8px}
+.social[hidden]{display:none}
+.social a{border:1.5px solid currentColor;border-radius:999px;padding:9px 16px;font-weight:700;font-size:14px;text-decoration:none}
+@media (max-width:760px){.visit{grid-template-columns:1fr}}
+
+/* owner section */
+.prop{background:var(--tint);border-top:1px solid var(--line)}
+.prop-tag{display:inline-block;background:var(--solid);color:var(--solid-fg);font-size:12px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.ba>div{min-width:0;border-radius:20px;padding:22px;background:var(--surface);border:1px solid var(--line)}
+.ba>div.on{background:var(--band);color:#fff;border-color:var(--band)}
+.ba h3{margin:0 0 10px;font-family:var(--display);font-weight:400;font-size:24px}
+.ba ul{margin:0;padding:0;list-style:none;display:grid;gap:9px;font-size:15px;color:var(--fg-soft)}
+.ba .on ul{color:var(--band-soft)}
+.ba li{display:grid;grid-template-columns:20px 1fr;gap:6px}
+.ba li::before{content:"–";color:var(--fg-soft)}
+.ba .on li::before{content:"✓";color:var(--rose);font-weight:800}
+.prop-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:start}
+.grp{font-family:var(--display);font-size:24px;margin:0 0 12px}
+.gains{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:26px}
+.gain{min-width:0;border-top:1.5px solid var(--fg);padding:12px 4px 0}
+.gain h3{margin:0 0 4px;font-size:17px}
+.gain p{margin:0;font-size:15px;color:var(--fg-soft)}
+.owner-msg{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.chat{margin-top:12px;max-width:330px;border-radius:22px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.chat-h{background:var(--band);color:#fff;padding:10px 14px;font-size:14px;display:flex;justify-content:space-between;gap:8px}
+.chat-h span{color:var(--band-soft)}
+.chat-b{padding:14px;background:var(--tint)}
+.bubble{background:var(--ok-bg);color:var(--ok-fg);border-radius:6px 16px 16px 16px;padding:12px 14px;font-size:14px}
+.chat-b small{display:block;text-align:right;font-size:11px;margin-top:6px;color:var(--fg-soft)}
+.price-card{min-width:0;background:var(--band);color:var(--band-fg);border-radius:24px;padding:28px;display:grid;gap:16px;position:sticky;top:90px}
+.price-card .kicker{color:var(--rose)}
+.price-card .big{font-family:var(--display);font-size:38px;line-height:1.05;color:#fff}
+.price-card ul{list-style:none;margin:0;padding:0;display:grid;gap:9px;font-size:15px}
+.price-card li{display:grid;grid-template-columns:20px 1fr;gap:8px;color:var(--band-soft)}
+.price-card li::before{content:"✓";color:var(--rose);font-weight:800}
+.price-card .opt{border-top:1px solid var(--band-line);padding-top:14px;font-size:14px;color:var(--band-soft)}
+.price-card .opt b{color:#fff}
+.timeline{margin-top:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.timeline div{min-width:0;border-top:3px solid var(--accent);padding-top:10px}
+.timeline b{display:block}
+.timeline span{font-size:14px;color:var(--fg-soft)}
+@media (max-width:900px){.prop-grid{grid-template-columns:1fr}.price-card{position:static}}
+@media (max-width:640px){.ba{grid-template-columns:1fr}}
+@media (max-width:560px){.gains,.timeline{grid-template-columns:1fr}}
+
+footer{padding-block:34px 120px;font-size:13px;color:var(--fg-soft);border-top:1px solid var(--line)}
+footer .in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px}
+
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--band);display:none;gap:8px;padding:10px max(14px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(14px,env(safe-area-inset-left,0px))}
+.bar a{flex:1;text-align:center;text-decoration:none;border-radius:999px;padding:13px 8px;font-weight:700;font-size:15px}
+.bar .b1{background:var(--rose);color:#1d1619}
+.bar .b2{background:var(--wa);color:#fff}
+.bar .b3{border:1.5px solid #6b5a62;color:#fff;flex:.7}
+@media (max-width:860px){.bar{display:flex}}
+.callbox{position:fixed;left:max(14px,env(safe-area-inset-left,0px));right:max(14px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:40;background:var(--surface);color:var(--fg);border:1px solid var(--line);border-radius:18px;padding:14px 16px;display:flex;align-items:center;gap:12px;box-shadow:0 20px 40px -12px rgba(0,0,0,.35);max-width:420px;margin-inline:auto}
+.callbox[hidden]{display:none}
+.callbox span{flex:1;min-width:0}
+.callbox small{display:block;font-size:13px;color:var(--fg-soft)}
+.callbox b{font-size:24px;font-variant-numeric:tabular-nums;user-select:all}
+.callbox button{border:1.5px solid var(--accent);color:var(--accent);background:transparent;border-radius:999px;min-height:44px;padding:0 16px;font-weight:700;cursor:pointer}
+.callbox #closecall{border-color:var(--line);color:var(--fg-soft);width:44px;padding:0}
+</style>
+
+<header class="top gut">
+  <div class="in">
+    <a class="logo" href="#inicio">Art <span>&amp;</span> Beleza</a>
+    <nav class="nav" aria-label="Menu">
+      <a href="#servicos" data-en="Services">Serviços</a>
+      <a href="#trabalhos" data-en="Our work">Trabalhos</a>
+      <a href="#avaliacoes" data-en="Reviews">Avaliações</a>
+      <a href="#marcar" data-en="Book">Marcar</a>
+      <a href="#visitar" data-en="Visit">Visitar</a>
+    </nav>
+    <div class="top-r">
+      <span class="tel">965 610 364</span>
+      <button class="lang" id="lang" type="button" aria-label="Mudar idioma / Change language">EN</button>
+      <a class="btn-sm" href="#marcar" data-en="Book now">Marcar hora</a>
+    </div>
+  </div>
+</header>
+
+<main id="inicio">
+  <div class="hero gut">
+    <div class="ghost" aria-hidden="true">Beleza</div>
+    <div class="in">
+      <div class="hero-txt">
+        <p class="place-line" data-en="Hair salon and barber in Ferreiras, Albufeira">Salão de cabeleireiro e barbearia em Ferreiras, Albufeira</p>
+        <h1><span data-en="Hair, beard and nails" class="l1">Cabelo, barba e unhas</span> <span data-en="with time for you." class="l2">com tempo para si.</span></h1>
+        <p class="lede" data-en="Everything in one place, for women, men and children. Always by appointment, so you never have to wait.">Tudo no mesmo espaço, para senhora, homem e criança. Sempre por marcação, para nunca ter de esperar.</p>
+        <div class="chips-row">
+          <a class="rating" href="#avaliacoes" aria-label="4,8 de 5 estrelas em 26 avaliações no Google">
+            <span class="g">G</span><span class="st">★★★★★</span><span><b>4,8</b> · <span data-en="26 reviews">26 avaliações</span></span>
+          </a>
+          <span id="hstatus" class="status open"><i></i><span></span></span>
+        </div>
+        <div class="ctas">
+          <a class="btn btn-wa" href="#marcar"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/></svg><span data-en="Book now">Marcar hora</span></a>
+          <a class="btn btn-ghost" href="#trabalhos" data-en="See our work">Ver trabalhos</a>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img class="main" src="img/dona.jpg" alt="A cabeleireira do salão Art & Beleza, de blazer preto, com uma tesoura na mão">
+        <div class="badge"><img class="chip-photo" src="img/unhas-roxo.jpg" alt="Unhas em verniz gel cor de ameixa"><div><b data-en="Always by appointment">Sempre por marcação</b><span data-en="Well organised, no waiting.">Bem organizado, sem esperas.</span></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="facts gut">
+    <div class="in">
+      <div class="fact"><b data-en="Tuesday to Saturday">Terça a sábado</b>09:00–13:00 · 14:30–19:00</div>
+      <div class="fact"><b data-en="Next to the stadium">Ao pé do Estádio</b><span data-en="Municipal de Ferreiras">Municipal de Ferreiras</span></div>
+      <div class="fact"><b data-en="Wheelchair access">Acesso para cadeira de rodas</b><span data-en="Step-free entrance">Entrada sem degraus</span></div>
+      <div class="fact"><b data-en="Women, men and children">Senhora, homem e criança</b><span data-en="Cut, colour, beard and nails">Corte, cor, barba e unhas</span></div>
+    </div>
+  </div>
+
+  <div class="band gut"><p data-en="Cut. Colour. Beard. Nails. Lashes. Beauty.">Corte. Cor. Barba. Unhas. Pestanas. Estética.</p></div>
+
+  <section id="servicos" class="gut">
+    <div class="in">
+      <div class="sec-head">
+        <div><h2 data-en="Everything in one place">Tudo num só sítio</h2></div>
+        <p class="sec-note" data-en="Pick an area and tap “Book” on the service you want. Your request goes through already filled in.">Escolha a área e carregue em “Marcar” no serviço que quer. O pedido segue já preenchido.</p>
+      </div>
+      <div class="tabs" role="tablist" id="tabs"></div>
+      <div class="svc-list" id="svclist" role="tabpanel"></div>
+      <div class="price-note"><b data-en="About prices:">Sobre preços:</b> <span data-en="for hair, we give you the price after seeing it, so we never quote you wrongly. Send a photo of what you want and we reply with an estimate.">no cabelo, damos o valor depois de o ver, para não lhe dar um preço errado. Envie uma foto do que procura e respondemos com uma estimativa.</span></div>
+    </div>
+  </section>
+
+  <section id="trabalhos" class="gal-wrap gut">
+    <div class="in">
+      <div class="sec-head">
+        <div><h2 data-en="Made here, in the salon">Feito aqui, no salão</h2></div>
+        <p class="sec-note" data-en="Recent results. Tap a photo to see it bigger.">Resultados recentes. Toque numa foto para a ver maior.</p>
+      </div>
+      <div class="tabs" id="galtabs" role="group" aria-label="Filtrar trabalhos">
+        <button class="tab" type="button" data-f="all" aria-pressed="true" data-en="All">Todos</button>
+        <button class="tab" type="button" data-f="barba" aria-pressed="false" data-en="Barber">Barbearia</button>
+        <button class="tab" type="button" data-f="unhas" aria-pressed="false" data-en="Nails">Unhas</button>
+      </div>
+      <div class="gal" id="gal">
+        <figure data-c="unhas"><button type="button" data-cap="Verniz gel lilás" data-capen="Lilac gel polish"><img src="img/unhas-lilas.jpg" alt="Unhas em verniz gel lilás" loading="lazy"></button><figcaption data-en="Lilac gel polish">Verniz gel lilás</figcaption></figure>
+        <figure data-c="barba"><button type="button" data-cap="Degradê e barba" data-capen="Fade and beard"><img src="img/barba.jpg" alt="Degradê com barba" loading="lazy"></button><figcaption data-en="Fade and beard">Degradê e barba</figcaption></figure>
+        <figure data-c="barba"><button type="button" data-cap="Degradê clássico" data-capen="Classic fade"><img src="img/fade.jpg" alt="Corte degradê curto" loading="lazy"></button><figcaption data-en="Classic fade">Degradê clássico</figcaption></figure>
+      </div>
+    </div>
+  </section>
+  <section id="equipa" class="gut">
+    <div class="in who">
+      <div class="who-txt">
+        
+        <h2 data-en="The person who does your hair is the one you meet">Quem faz o seu cabelo é quem a recebe</h2>
+        <p class="sec-note" data-en="A small salon where each client gets time and attention. You tell us what you imagine, we show you what works for your hair, and you leave happy.">Um salão pequeno, onde cada cliente tem tempo e atenção. Diz-nos o que imagina, mostramos o que resulta no seu cabelo e sai daqui satisfeita.</p>
+        <ul class="who-list">
+          <li data-en="Cut, colour and styling for women, men and children">Corte, cor e penteado para senhora, homem e criança</li>
+          <li data-en="Honest advice on what suits your hair">Conselho sincero sobre o que fica bem no seu cabelo</li>
+          <li data-en="Always by appointment, with no waiting">Sempre por marcação, sem esperas</li>
+        </ul>
+        <a class="btn btn-wa" href="#marcar" data-en="Book with us">Marcar hora</a>
+      </div>
+    </div>
+  </section>
+  <dialog id="lb" aria-label="Foto ampliada"><img id="lbimg" alt=""><p id="lbcap"></p><button class="x" type="button" id="lbx" aria-label="Fechar">✕</button></dialog>
+
+  <section id="avaliacoes" class="rev-wrap gut">
+    <div class="in">
+      <div class="sec-head">
+        <div><h2 data-en="What our clients say">O que dizem os clientes</h2></div>
+        <div style="display:flex;align-items:end;gap:12px"><span class="big-score">4,8</span><span class="sec-note"><span data-en="out of 5 stars">de 5 estrelas</span><br><span data-en="26 reviews">26 avaliações</span></span></div>
+      </div>
+      <div class="revs">
+        <figure class="rev"><div class="st">★★★★★</div><p>“Serviço excelente, pelo barbeiro e pela cabeleireira atual, preços super em conta para o serviço fenomenal que efetuam. Espaço bem decorado, sempre bem limpo e com um aroma perfeito no ar.”</p><div class="who">Daniel M.</div></figure>
+        <figure class="rev"><div class="st">★★★★★</div><p>“Atendimento excelente… Trabalho perfeito e profissional, quer da Tatiana quer da Nélia… Recomendo.”</p><div class="who">Isabel A.</div></figure>
+        <figure class="rev"><div class="st">★★★★★</div><p>“Excelente atendimento num espaço bastante agradável.”</p><div class="who">Elton P.</div></figure>
+        <figure class="rev"><div class="st">★★★★★</div><p>“Great work. Coloured my daughter's hair cola red, looks fantastic. I had a haircut whilst I waited. We highly recommend.”</p><div class="who">Angela I.</div></figure>
+      </div>
+      <div class="rev-cta">
+        <a class="btn btn-rose" href="https://search.google.com/local/writereview?placeid=ChIJddqgNOjOGg0Rj6rjegGwjHc" target="_blank" rel="noopener" data-en="Leave a review">Deixar uma avaliação</a>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Sal%C3%A3o%20de%20Cabeleireiro%20Art%20%26%20Beleza%20Ferreiras&query_place_id=ChIJddqgNOjOGg0Rj6rjegGwjHc" target="_blank" rel="noopener" data-en="See all on Google">Ver todas no Google</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="marcar" class="gut">
+    <div class="in book">
+      <div class="book-txt">
+        
+        <h2 data-en="Request your time in 20 seconds">Peça a sua hora em 20 segundos</h2>
+        <p class="sec-note" style="margin-top:12px" data-en="No phone calls and no waiting to find out if there is space. Pick what you want and the time that suits you.">Sem telefonemas e sem esperar por resposta para saber se há vaga. Escolha o que quer e a hora que dá jeito.</p>
+        <ol class="steps">
+          <li><span><b data-en="Pick service, day and time">Escolha serviço, dia e hora</b><span data-en="Only times inside our opening hours are shown.">Só aparecem horas dentro do nosso horário.</span></span></li>
+          <li><span><b data-en="Tap send">Carregue em enviar</b><span data-en="WhatsApp opens with your message ready.">Abre o WhatsApp com a mensagem pronta.</span></span></li>
+          <li><span><b data-en="We confirm with you">Confirmamos consigo</b><span data-en="We reply as soon as we check the diary.">Respondemos assim que vemos a agenda.</span></span></li>
+        </ol>
+        <div class="promise" data-en="✓ This is a booking request. Your time is confirmed once we reply.">✓ É um pedido de marcação. A hora fica confirmada quando respondermos.</div>
+      </div>
+      <form id="bookform" novalidate>
+        <div>
+          <label for="svc" data-en="Service">Serviço</label>
+          <select id="svc"></select>
+        </div>
+        <div>
+          <span class="lbl" id="pro-l" data-en="With whom">Com quem</span>
+          <div class="chips" role="group" aria-labelledby="pro-l" id="pros">
+            <button type="button" class="chip" aria-pressed="true" data-v="" data-en="No preference">Tanto faz</button>
+            <button type="button" class="chip" aria-pressed="false" data-v="Tatiana">Tatiana</button>
+            <button type="button" class="chip" aria-pressed="false" data-v="Nélia">Nélia</button>
+          </div>
+        </div>
+        <div class="row2">
+          <div>
+            <label for="day" data-en="Day">Dia</label>
+            <select id="day"></select>
+          </div>
+          <div>
+            <label for="nm" data-en="Your name">O seu nome</label>
+            <input id="nm" type="text" autocomplete="given-name" placeholder="Ana">
+          </div>
+        </div>
+        <div>
+          <span class="lbl" id="hr-l" data-en="Preferred time">Hora preferida</span>
+          <div class="slots" id="slots" role="group" aria-labelledby="hr-l"></div>
+        </div>
+        <label class="check" for="photo"><input id="photo" type="checkbox"> <span data-en="I will send a photo of what I want">Vou enviar uma foto do que quero</span></label>
+        <div class="preview" aria-live="polite"><small data-en="Message that will be sent">Mensagem que vai ser enviada</small><span id="msg"></span></div>
+        <a id="send" class="btn btn-wa" href="https://wa.me/351965610364" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3Z"/></svg><span data-en="Send request on WhatsApp">Enviar pedido pelo WhatsApp</span></a>
+        <p class="fallback"><span data-en="Prefer to call?">Prefere ligar?</span> <b>965 610 364</b></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="gut" style="padding-top:0">
+    <div class="in extra">
+      <div class="voucher">
+        <div class="kicker" style="color:#6e2c46" data-en="Gift card">Cartão-presente</div>
+        <h3 data-en="Give a visit to the salon">Ofereça uma ida ao salão</h3>
+        <p data-en="A haircut, nails or a day of care. Tell us the amount or the service and we prepare the voucher for you to give.">Corte, unhas ou um dia de cuidado. Diga-nos o valor ou o serviço e preparamos o vale para entregar.</p>
+        <a class="btn" id="vouch" href="https://wa.me/351965610364" target="_blank" rel="noopener" data-en="Ask for a gift card">Pedir cartão-presente</a>
+      </div>
+      <div class="faq">
+        <div class="kicker" data-en="Good to know">Dúvidas frequentes</div>
+        <h2 style="margin-bottom:10px" data-en="Before you come">Antes de vir</h2>
+        <details><summary data-en="Do I need to book?">Preciso de marcar?</summary><p data-en="Yes. We always work by appointment, so your time is yours alone and you do not wait in a queue.">Sim. Trabalhamos sempre por marcação, por isso a sua hora é só sua e não espera na fila.</p></details>
+        <details><summary data-en="How much does a hair service cost?">Quanto custa um serviço de cabelo?</summary><p data-en="We give the price after seeing your hair. If you send a photo on WhatsApp, we reply with an estimate.">Damos o valor depois de ver o cabelo. Se enviar uma foto pelo WhatsApp, respondemos com uma estimativa.</p></details>
+        <details><summary data-en="Do you take children and men?">Atendem crianças e homens?</summary><p data-en="Yes. We do children's, men's and women's cuts, and beard trims.">Sim. Fazemos cortes de criança, de homem e de senhora, e arranjo de barba.</p></details>
+        <details><summary data-en="Is there wheelchair access?">O espaço tem acesso para cadeira de rodas?</summary><p data-en="Yes, the entrance has no steps.">Sim, a entrada é sem degraus.</p></details>
+        <details><summary data-en="Do you speak English?">Falam inglês?</summary><p data-en="Yes. You can book and write to us in English.">Pode marcar e escrever-nos em inglês. Respondemos com gosto.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section id="visitar" class="gut">
+    <div class="in">
+      <div class="sec-head"><div><h2 data-en="Opening hours and address">Horário e morada</h2></div></div>
+      <div class="visit">
+        <div class="hours">
+          <div id="status" class="status open"><i></i><span></span></div>
+          <div class="tbl"><table aria-label="Horário semanal"><tbody id="hrs"></tbody></table></div>
+        </div>
+        <div class="place">
+          <h3>Estrada do Paraíso, Edifício Labisa, Loja C</h3>
+          <p>Vale, Ferreiras · 8200 Albufeira</p>
+          <div class="mini-map" aria-hidden="true"><div class="pitch"><span>Estádio de Ferreiras</span></div><div class="pin"></div></div>
+          <p data-en="Right next to the Estádio Municipal de Ferreiras.">Mesmo ao lado do Estádio Municipal de Ferreiras.</p>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Sal%C3%A3o%20de%20Cabeleireiro%20Art%20%26%20Beleza%20Ferreiras&query_place_id=ChIJddqgNOjOGg0Rj6rjegGwjHc" target="_blank" rel="noopener" data-en="Open in Google Maps">Abrir no Google Maps</a>
+          <div class="social" id="social" hidden></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proposta" class="prop gut">
+    <div class="in">
+      <span class="prop-tag">Proposta para o salão</span>
+      <h2 style="margin:14px 0 28px;max-width:22ch">Um site que traz clientes e poupa-lhe tempo</h2>
+      <div class="ba">
+        <div><h3>Sem site</h3><ul>
+          <li>Telefone a tocar com as mãos no cabelo de uma cliente</li>
+          <li>Marcações combinadas em mensagens soltas</li>
+          <li>Quem procura no Google vê pouco mais do que a morada</li></ul></div>
+        <div class="on"><h3>Com o site</h3><ul>
+          <li>A cliente pede a hora sozinha, a qualquer hora do dia ou da noite</li>
+          <li>Cada pedido chega completo ao seu WhatsApp</li>
+          <li>As suas 26 avaliações e o seu trabalho convencem quem ainda não a conhece</li></ul></div>
+      </div>
+      <div class="prop-grid">
+        <div>
+          <div class="owner-msg">
+            <b>Experimente: faça um pedido na secção “Marcar”</b>
+            <p style="margin:4px 0 0;font-size:14px;color:var(--fg-soft)">É assim que o pedido de uma cliente chega ao seu WhatsApp.</p>
+            <div class="chat"><div class="chat-h"><b>Nova cliente</b><span>WhatsApp</span></div>
+            <div class="chat-b"><div class="bubble" id="ownermsg"></div><small>agora ✓✓</small></div></div>
+          </div>
+          <div class="gains" style="margin-top:26px">
+            <div class="gain"><h3>Encontram-na no Google</h3><p>Horário, mapa, avaliações e botão de marcar à vista.</p></div>
+            <div class="gain"><h3>Mais avaliações</h3><p>Botão para avaliar e um QR no balcão.</p></div>
+            <div class="gain"><h3>Português e inglês</h3><p>Para residentes e turistas de Albufeira.</p></div>
+            <div class="gain"><h3>Menos perguntas repetidas</h3><p>Preços, crianças e acesso já explicados.</p></div>
+            <div class="gain"><h3>Cartões-presente</h3><p>Vende a quem ainda não é cliente.</p></div>
+            <div class="gain"><h3>Fotos que evitam enganos</h3><p>A cliente mostra o que quer antes de vir.</p></div>
+          </div>
+        </div>
+        <aside class="price-card" aria-label="O que inclui">
+          <div class="big">O seu site, pronto a receber clientes</div>
+          <ul>
+            <li>Site completo à medida, em português e inglês</li>
+            <li>Marcação pelo WhatsApp com horas e profissional</li>
+            <li>Preparado para o Google, com avaliações e QR</li>
+            <li>Ligação ao Facebook e ao Instagram</li>
+            <li>Endereço próprio (.pt) e alojamento</li>
+            <li>Ajustes ao seu gosto antes de ir online</li>
+          </ul>
+          <div class="opt"><b>Depois de estar online:</b> atualizo fotos, horários e serviços por si, sempre que precisar.</div>
+          <p class="fallback" style="color:var(--band-soft);text-align:left">Falamos e ajusto tudo ao que imagina.</p>
+        </aside>
+      </div>
+      <div class="timeline">
+        <div><b>1. Aprova</b><span>Diz-me o que mudar: textos, fotos, serviços.</span></div>
+        <div><b>2. Preparo</b><span>Ajusto tudo e ligo o endereço do site.</span></div>
+        <div><b>3. Fica online</b><span>Mostro-lhe como atualizar horários e fotos.</span></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="gut">
+  <div class="in">
+    <span>© Art &amp; Beleza · Ferreiras, Albufeira · 965 610 364</span>
+    <span>Proposta de site preparada por Valeria. Fotos e avaliações do perfil público no Google.</span>
+  </div>
+</footer>
+
+<nav class="bar" aria-label="Contacto rápido">
+  <a class="b3" id="callbtn" href="tel:+351965610364" data-en="Call">Ligar</a>
+  <a class="b2" href="https://wa.me/351965610364" target="_blank" rel="noopener">WhatsApp</a>
+  <a class="b1" href="#marcar" data-en="Book now">Marcar hora</a>
+</nav>
+
+<div class="callbox" id="callbox" hidden>
+  <span><small data-en="Call us">Ligue para</small><b>965 610 364</b></span>
+  <button type="button" id="copynum" data-en="Copy">Copiar</button>
+  <button type="button" id="closecall" aria-label="Fechar">✕</button>
+</div>
+
+<script>
+(function(){
+  /* Redes sociais: preencher com os links do salão para aparecerem no site. */
+  var SOCIAL={facebook:'',instagram:''};
+
+  var $=function(id){return document.getElementById(id)};
+  var L='pt';
+  try{var sv=localStorage.getItem('ab-lang');if(sv==='en'||sv==='pt')L=sv;else if(/^en/i.test(navigator.language||''))L='en'}catch(e){}
+  var t=function(p,e){return L==='en'?e:p};
+
+  var DAYS=[['Domingo','Sunday'],['Segunda','Monday'],['Terça','Tuesday'],['Quarta','Wednesday'],['Quinta','Thursday'],['Sexta','Friday'],['Sábado','Saturday']];
+  var OPEN={2:1,3:1,4:1,5:1,6:1};
+  var SERVICES=[
+    {n:['Senhora','Women'],i:[
+      ['Corte de cabelo (senhora)',"Women's haircut",'Corte, lavagem e secagem.','Cut, wash and blow-dry.'],
+      ['Brushing','Blow-dry','Secagem com forma e volume.','Styled blow-dry with shape and volume.'],
+      ['Coloração ou madeixas','Colour or highlights','Cor, madeixas e retoques de raiz.','Colour, highlights and root touch-ups.'],
+      ['Penteado','Hairstyling','Para festas, casamentos e ocasiões.','For parties, weddings and special occasions.']]},
+    {n:['Homem','Men'],i:[
+      ['Corte de cabelo (homem)',"Men's haircut",'Degradê, corte clássico e acabamentos.','Fade, classic cut and finishing.'],
+      ['Barba','Beard trim','Arranjo e contorno de barba.','Beard trim and shaping.'],
+      ['Corte de criança',"Children's haircut",'Cortes para os mais novos, com paciência.','Cuts for the little ones, with patience.']]},
+    {n:['Unhas e pés','Nails and feet'],i:[
+      ['Unhas de gel','Gel nails','Verniz gel, manutenção e decoração.','Gel polish, maintenance and nail art.'],
+      ['Pedicura','Pedicure','Pés cuidados e prontos para a praia.','Cared-for feet, beach ready.']]},
+    {n:['Olhar e estética','Eyes and beauty'],i:[
+      ['Pestanas','Eyelashes','Para um olhar marcado sem esforço.','A defined look without the effort.'],
+      ['Estética ou depilação a laser','Beauty or laser hair removal','Tratamentos de estética e depilação a laser.','Beauty treatments and laser hair removal.']]}
+  ];
+  var FLAT=[];SERVICES.forEach(function(g){g.i.forEach(function(s){FLAT.push(s)})});
+
+  var svc=$('svc'), day=$('day'), nm=$('nm'), tabs=$('tabs'), list=$('svclist');
+  var tabIdx=0, time='', pro='';
+
+  // static text translation
+  function translateStatic(){
+    document.documentElement.lang=L;
+    document.querySelectorAll('[data-en]').forEach(function(el){
+      if(el.dataset.pt===undefined) el.dataset.pt=el.textContent;
+      el.textContent=L==='en'?el.dataset.en:el.dataset.pt;
+    });
+    $('nm').placeholder=t('Ex.: Ana','e.g. Anna');
+    $('lang').textContent=L==='en'?'PT':'EN';
+    $('lbx').setAttribute('aria-label',t('Fechar','Close'));
+    $('vouch').href='https://wa.me/351965610364?text='+encodeURIComponent(t('Olá! Gostava de oferecer um cartão-presente.','Hello! I would like to give a gift card.'));
+  }
+
+  function buildSelect(){
+    var cur=svc.value||'0'; svc.innerHTML='';
+    var n=0;
+    SERVICES.forEach(function(g){
+      var og=document.createElement('optgroup'); og.label=t(g.n[0],g.n[1]);
+      g.i.forEach(function(s){var o=document.createElement('option');o.value=String(n++);o.textContent=t(s[0],s[1]);og.appendChild(o)});
+      svc.appendChild(og);
+    });
+    svc.value=cur;
+  }
+  function showTab(k){
+    tabIdx=k;
+    tabs.innerHTML='';
+    SERVICES.forEach(function(g,j){
+      var b=document.createElement('button');b.type='button';b.className='tab';b.setAttribute('role','tab');
+      b.setAttribute('aria-selected',j===k?'true':'false');b.textContent=t(g.n[0],g.n[1]);
+      b.addEventListener('click',function(){showTab(j)});tabs.appendChild(b);
+    });
+    list.innerHTML='';
+    var base=0;for(var q=0;q<k;q++)base+=SERVICES[q].i.length;
+    SERVICES[k].i.forEach(function(s,j){
+      var r=document.createElement('div');r.className='svc-row';
+      var d=document.createElement('div'),h=document.createElement('h3'),p=document.createElement('p');
+      h.textContent=t(s[0],s[1]);p.textContent=t(s[2],s[3]);d.appendChild(h);d.appendChild(p);
+      var b=document.createElement('button');b.type='button';b.textContent=t('Marcar','Book');b.setAttribute('aria-label',t('Marcar ','Book ')+t(s[0],s[1]));
+      b.addEventListener('click',function(){svc.value=String(base+j);upd();$('marcar').scrollIntoView({behavior:'smooth'})});
+      r.appendChild(d);r.appendChild(b);list.appendChild(r);
+    });
+  }
+
+  // time
+  var now=new Date(new Date().toLocaleString('en-US',{timeZone:'Europe/Lisbon'}));
+  var d0=now.getDay(), m=now.getHours()*60+now.getMinutes();
+  var dates=[];
+  for(var k=0;dates.length<12&&k<24;k++){
+    var x=new Date(now.getFullYear(),now.getMonth(),now.getDate()+k);
+    if(!OPEN[x.getDay()]) continue;
+    if(k===0&&m>=1080) continue;
+    dates.push({k:k,w:x.getDay(),d:x.getDate()+'/'+(x.getMonth()+1)});
+  }
+  function buildDays(){
+    var cur=day.selectedIndex>=0?day.selectedIndex:0; day.innerHTML='';
+    dates.forEach(function(o,i){
+      var op=document.createElement('option');
+      var pre=o.k===0?t('Hoje, ','Today, '):o.k===1?t('Amanhã, ','Tomorrow, '):'';
+      op.textContent=pre+t(DAYS[o.w][0],DAYS[o.w][1])+' '+o.d;op.value=String(o.k);day.appendChild(op);
+    });
+    day.selectedIndex=cur;
+  }
+  function fmt(mm){return ('0'+Math.floor(mm/60)).slice(-2)+':'+('0'+mm%60).slice(-2)}
+  function buildSlots(){
+    var isToday=day.value==='0', box=$('slots'); box.innerHTML='';
+    [[t('Manhã','Morning'),540,750],[t('Tarde','Afternoon'),870,1110]].forEach(function(g){
+      var wrap=document.createElement('div');
+      var p=document.createElement('p');p.className='slot-label';p.textContent=g[0];wrap.appendChild(p);
+      var ch=document.createElement('div');ch.className='chips';
+      for(var tt=g[1];tt<=g[2];tt+=30){
+        var b=document.createElement('button');b.type='button';b.className='chip';b.textContent=fmt(tt);b.dataset.v=fmt(tt);
+        b.disabled=isToday&&tt<=m+30;
+        b.setAttribute('aria-pressed',b.dataset.v===time?'true':'false');
+        b.addEventListener('click',function(){
+          time=(time===this.dataset.v)?'':this.dataset.v;
+          Array.prototype.forEach.call(box.querySelectorAll('.chip'),function(z){z.setAttribute('aria-pressed',z.dataset.v===time?'true':'false')});
+          upd();
+        });
+        ch.appendChild(b);
+      }
+      wrap.appendChild(ch);box.appendChild(wrap);
+    });
+    if(time&&box.querySelector('.chip[data-v="'+time+'"]:disabled')) time='';
+  }
+  Array.prototype.forEach.call($('pros').querySelectorAll('.chip'),function(b){
+    b.addEventListener('click',function(){
+      pro=b.dataset.v;
+      Array.prototype.forEach.call($('pros').querySelectorAll('.chip'),function(z){z.setAttribute('aria-pressed',z===b?'true':'false')});
+      upd();
+    });
+  });
+
+  function message(){
+    var n=nm.value.trim(), o=dates[day.selectedIndex], s=FLAT[+svc.value]||FLAT[0];
+    var dd=o?t(DAYS[o.w][0].toLowerCase(),DAYS[o.w][1])+', '+o.d:'';
+    var out;
+    if(L==='en'){
+      out='Hello! '+(n?"I'm "+n+'. ':'')+"I'd like to book: "+s[1]+(dd?', '+dd:'')+(time?', at '+time:', time to be agreed')+(pro?', with '+pro:'')+'.'+($('photo').checked?" I'll send a photo of what I'd like.":'')+' Do you have availability?';
+    }else{
+      out='Olá! '+(n?'Sou '+n+'. ':'')+'Gostava de marcar: '+s[0]+(dd?', '+dd:'')+(time?', às '+time:', hora a combinar')+(pro?', com '+(pro==='Nélia'?'a Nélia':'a Tatiana'):'')+'.'+($('photo').checked?' Vou enviar uma foto do que quero.':'')+' Têm disponibilidade?';
+    }
+    return out;
+  }
+  function upd(){
+    var msg=message();
+    $('msg').textContent=msg;$('ownermsg').textContent=msg;
+    $('send').href='https://wa.me/351965610364?text='+encodeURIComponent(msg);
+  }
+
+  // hours + status
+  function buildHours(){
+    var rows='';
+    [1,2,3,4,5,6,0].forEach(function(i){
+      rows+='<tr'+(i===d0?' class="today"':'')+'><td>'+t(DAYS[i][0],DAYS[i][1])+(i===d0?t(' (hoje)',' (today)'):'')+'</td><td>'+(OPEN[i]?'09:00–13:00 · 14:30–19:00':t('Fechado','Closed'))+'</td></tr>';
+    });
+    $('hrs').innerHTML=rows;
+    var isOpen=OPEN[d0]&&((m>=540&&m<780)||(m>=870&&m<1140)), txt;
+    if(isOpen) txt=m<780?t('Aberto agora · fecha às 13:00 para almoço','Open now · closes 13:00 for lunch'):t('Aberto agora · fecha às 19:00','Open now · closes at 19:00');
+    else if(OPEN[d0]&&m>=780&&m<870) txt=t('Pausa de almoço · reabre às 14:30','Lunch break · reopens 14:30');
+    else txt=t('Fechado agora','Closed now');
+    ['status','hstatus'].forEach(function(id){var e=$(id);e.className='status '+(isOpen?'open':'closed');e.querySelector('span').textContent=txt});
+  }
+
+  function renderAll(){
+    translateStatic();buildSelect();showTab(tabIdx);buildDays();buildSlots();buildHours();upd();
+    var f=$('galtabs');
+    Array.prototype.forEach.call($('gal').querySelectorAll('button'),function(b){b.dataset.curcap=t(b.dataset.cap,b.dataset.capen)});
+  }
+
+  // social links (only shown when filled in)
+  (function(){
+    var s=$('social'),any=false;
+    [['facebook','Facebook'],['instagram','Instagram']].forEach(function(p){
+      if(SOCIAL[p[0]]){var a=document.createElement('a');a.href=SOCIAL[p[0]];a.target='_blank';a.rel='noopener';a.textContent=p[1];s.appendChild(a);any=true}
+    });
+    s.hidden=!any;
+  })();
+
+  $('lang').addEventListener('click',function(){
+    L=L==='en'?'pt':'en';
+    try{localStorage.setItem('ab-lang',L)}catch(e){}
+    renderAll();
+  });
+  day.addEventListener('change',function(){buildSlots();upd()});
+  ['svc','nm','photo'].forEach(function(id){$(id).addEventListener('input',upd);$(id).addEventListener('change',upd)});
+  $('bookform').addEventListener('submit',function(e){e.preventDefault()});
+
+  renderAll();
+  var first=$('slots').querySelector('.chip:not(:disabled)');
+  if(first) first.click();
+
+  // call button: the tel link may not open in every viewer, so the number is shown and can be copied
+  var cb=$('callbox');
+  // the tap tries to call straight away; the number panel only appears if the page stays in front (the call did not start)
+  var left=false;
+  ['blur','pagehide'].forEach(function(ev){window.addEventListener(ev,function(){left=true})});
+  document.addEventListener('visibilitychange',function(){if(document.hidden) left=true});
+  $('callbtn').addEventListener('click',function(){
+    left=false;
+    setTimeout(function(){if(!left&&!document.hidden) cb.hidden=false},1200);
+  });
+  $('closecall').addEventListener('click',function(){cb.hidden=true});
+  $('copynum').addEventListener('click',function(){
+    var b=this,ok=function(){b.textContent=t('Copiado','Copied');setTimeout(function(){b.textContent=t('Copiar','Copy')},1500)};
+    try{navigator.clipboard.writeText('965610364').then(ok,function(){})}catch(e){}
+  });
+
+  // the first visible photo gets the large slot
+  function markLead(){
+    var seen=false;
+    Array.prototype.forEach.call($('gal').children,function(f){
+      f.classList.remove('lead');
+      if(!f.hidden&&!seen){f.classList.add('lead');seen=true}
+    });
+  }
+  markLead();
+
+  // gallery filter + lightbox
+  var ft=$('galtabs').querySelectorAll('.tab');
+  Array.prototype.forEach.call(ft,function(b){
+    b.addEventListener('click',function(){
+      Array.prototype.forEach.call(ft,function(z){z.setAttribute('aria-pressed',z===b?'true':'false')});
+      Array.prototype.forEach.call($('gal').children,function(f){f.hidden=!(b.dataset.f==='all'||f.dataset.c===b.dataset.f)});
+      markLead();
+    });
+  });
+  var lb=$('lb');
+  Array.prototype.forEach.call($('gal').querySelectorAll('button'),function(b){
+    b.addEventListener('click',function(){
+      var im=b.querySelector('img');$('lbimg').src=im.src;$('lbimg').alt=im.alt;$('lbcap').textContent=t(b.dataset.cap,b.dataset.capen);
+      if(lb.showModal) lb.showModal(); else lb.setAttribute('open','');
+    });
+  });
+  $('lbx').addEventListener('click',function(){lb.close?lb.close():lb.removeAttribute('open')});
+  lb.addEventListener('click',function(e){if(e.target===lb&&lb.close) lb.close()});
+})();
+</script>
+
+</body>
+</html>
